@@ -1,0 +1,335 @@
+/*  GENERICS DEFINITIONS */
+body {
+  font: 400 18px arial, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+
+h2 {
+  font-size: 24px !important;
+  line-height: 1.375em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 22px !important;
+  line-height: 1.375em;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 20px !important;
+  line-height: 1.375em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px !important;
+}
+
+/* Remove o underline do lado de ícone-botão*/
+a {
+  text-decoration: none !important;
+}
+
+button {
+    outline: none !important;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.container-nav {
+  padding: 0px 15px 0px 15px;
+}
+
+.auto-break {
+  width:auto;
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-login {
+  text-align: left;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* CONTAINER (FOOTER SECTION) */
+#footer {
+  background-color: rgb(132, 105, 80);
+  color: #fff;
+}
+
+/* INPUT TYPE CHEKCBOX DEFINITIONS */
+
+input[type=checkbox] {
+  display: none;
+  /* to hide the checkbox itself */
+}
+
+input[type=checkbox]+label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 26px;
+  color: rgb(132, 105, 80);
+}
+
+input[type=checkbox]+label:before {
+  content: "\f096";
+  /* unchecked icon */
+}
+
+input[type=checkbox]+label:before {
+  letter-spacing: 10px;
+  /* space between checkbox and label */
+}
+
+input[type=checkbox]:checked+label:before {
+  content: "\f046";
+  /* checked icon */
+}
+
+input[type=checkbox]:checked+label:before {
+  letter-spacing: 5px;
+  /* allow space for check mark */
+}
+
+/* NAV DROPDOWN */
+.navbar-default .dropdown-menu {
+     background-color: rgb(132, 105, 80) !important;
+     color:#fff !important;
+}
+
+.navbar-default .dropdown-menu > li > a {
+	color: #fff !important;
+}
+
+.navbar-default .dropdown-menu > li >a:hover, .navbar-default .dropdown-menu > li >a:active {
+   color: #fff !important;
+   background-color: rgb(186, 124, 71) !important;
+}
+
+/* MODAL LOGIN */
+
+.modal-header-senha {
+  background-color: rgb(132, 105, 80);
+  color: #fff;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 10%;
+}
+
+.modal-dialog{
+    position: relative;
+    display: table; /* <-- This makes the trick */
+    overflow-y: auto;
+    overflow-x: auto;
+    width: auto;
+    min-width: 280px;
+}
+
+.modal-content-senha {
+  color: gray;
+}
+
+.modal-footer-senha {
+  background-color: rgb(132, 105, 80);
+  color: #fff;
+  text-align: center;
+}
+
+/* MODAL LOGIN TAB */
+.btn-modal-fechar, .btn-color, .btn-modal-salvar  {
+  background-color: rgb(132, 105, 80) !important;
+  color: #fff !important;
+}
+
+.btn.btn-color:hover, .btn.btn-color:active, .btn-modal-fechar:hover, .btn-modal-fechar:active, .btn-modal-salvar:hover, .btn-modal-salvar:active {
+  color: #fff !important;
+  background-color: rgb(186, 124, 71) !important;
+}
+
+.close {
+  color: #fff;
+  opacity: 1;
+}
+
+.input-group-addon {
+  color: #fff !important;
+  background-color: rgb(132, 105, 80) !important;
+  font-size: 20px !important;
+  border: rgb(132, 105, 80);
+}
+
+.checkbox-modal-login {
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+}
+
+.btn.btn-outline {
+  background-color: transparent;
+  border: 1px solid white !important;
+}
+
+.txt-modal-login {
+  text-align: left;
+  font-size: 14px !important;
+  color: gray;
+}
+
+/* CLIENTE */
+
+.btn-salvar  {
+  background-color: rgb(132, 105, 80) !important;
+  color: #fff !important;
+}
+
+.btn-salvar:hover, .btn-salvar:active {
+  color: #fff !important;
+  background-color: rgb(186, 124, 71) !important;
+}
+
+/* FOTO DEFINITIONS */
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.special-img {
+  position: relative;
+  top: -5px;
+  float: left;
+  left: -5px;
+}
+
+.img-circle {
+  width: 30px;
+  height: 30px;
+}
+
+/* PAGINAS DO DROPDOWN APOS LOGIN */
+
+.underline-section-title {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(132, 105, 80);
+  margin-bottom: -1px;
+}
+
+.section-title {
+  color: rgb(132, 105, 80);
+}
+
+.panel-group {
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+}
+
+.panel-heading-1 {
+  color: #fff !important;
+  background-color: rgb(244, 127, 72) !important;
+  padding: 25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-body-1 {
+  color: gray;
+  background-color: #fff;
+  border: 2px solid rgb(244, 127, 72) !important;
+  min-height: 375px;
+}
+
+.btn-profile-foto {
+  color: rgb(244, 127, 72) !important;
+  background-color: #fff !important;
+  border: 2px solid rgb(244, 127, 72) !important;
+}
+
+.btn-profile-foto:hover, .btn-profile-foto:active {
+  color: #fff !important;
+  background-color: rgb(244, 127, 72) !important;
+}
+
+.panel-heading-2 {
+  color: #fff !important;
+  background-color: rgb(186, 124, 71) !important;
+  padding: 25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-body-2 {
+  color: gray;
+  background-color: #fff;
+  border: 2px solid rgb(186, 124, 71) !important;
+  min-height: 250px;
+}
+
+.panel-heading-3 {
+  color: #fff !important;
+  background-color: rgb(211, 96, 63) !important;
+  padding: 25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-body-3 {
+  color: gray;
+  background-color: #fff;
+  border: 2px solid rgb(211, 96, 63) !important;
+  min-height: 150px;
+}
+
+.alert {
+    padding: 15px !important;
+    margin-bottom: 20px !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+}
+
+/* Cor do input valido ou invalido */
+
+input:required:invalid, input:focus:invalid, input:invalid, select:required:invalid, select:focus:invalid, select:invalid {
+  border: 1px solid red !important;
+}
+
+input:required:valid, input:focus:valid, input:valid, select:required:valid, select:focus:valid, select:valid {
+  border: 1px solid green !important;
+}

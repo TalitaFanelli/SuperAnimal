@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Super Animal</string>
+
+    <string name="title_activity_login">LOGIN</string>
+
+    <string name="label_cpf"><font size="16">CPF</font></string>
+    <string name="label_senha"><font size="16">Senha</font></string>
+    <string name="entrar"><font size="16">ENTRAR</font></string>
+
+
+    <string name="txtSubtitle"><font size="16">Opções do agendamento:</font></string>
+    <string name="data">Data</string>
+    <string name="horario">Horário</string>
+    <string name="animal">Animal</string>
+    <string name="listaServicos">Lista de Serviços</string>
+    <string name="banho">Banho - R$40,00</string>
+    <string name="tosa">Tosa - R$35,00</string>
+    <string name="hidratacao">Hidratação - R$65,00</string>
+    <string name="unhas">Corte de Unhas - R$15,00</string>
+    <string name="dentes">Escovação dos Dentes - R$5,00</string>
+    <string name="ouvido">Limpeza dos Ouvidos - R$10,00</string>
+    <string name="ok">OK</string>
+    <string name="totalPagar">Total</string>
+    <string name="agendar">AGENDAR</string>
+    <string name="salvar">SALVAR</string>
+    <string name="excluir">EXCLUIR</string>
+
+    <string-array name="arrayData">
+        <item>20-12-2017</item>
+        <item>21-12-2017</item>
+        <item>22-12-2017</item>
+    </string-array>
+
+    <string-array name="arrayHorario">
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+    </string-array>
+    <string name="title_activity_agendamento">AGENDAMENTOS</string>
+    <string name="title_activity_agendamento_create">AGENDAR</string>
+
+</resources>

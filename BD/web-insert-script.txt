@@ -1,0 +1,34 @@
++ANIMAL
+
+INSERT INTO animal (CLIENTE_CPF, NOME, SOBRENOME, NASCIMENTO, SEXO, ESPECIE, RACA, PELAGEM) 
+VALUES (?,?,?,?,?,?,?,?) 
+
+ 
+
++CLIENTE
+
+INSERT INTO cliente (cpf, senha) 
+VALUES (?,?) 
+
+INSERT INTO dados_pessoais_cliente (CLIENTE_CPF,NOME,SOBRENOME,NASCIMENTO,GENERO) VALUES (?,?,?,?,?)
+
+INSERT INTO dados_residenciais_cliente
+
+(CEP,cliente_CPF,ENDERECO,BAIRRO,NUMERO,COMPLEMENTO,CIDADE,ESTADO) VALUES 
+
+(?,?,?,?,?,?,?,?)
+
+
+INSERT INTO dados_contato_cliente (cliente_cpf,email,fixo,celular) VALUES (?,?,?,?) 
+
+
++MEDICO
+
+INSERT INTO medico (cpf,crmv,senha) 
+VALUES (?,?,?) 
+
+INSERT INTO dados_pessoais_medico (MEDICO_CPF,NOME,SOBRENOME,NASCIMENTO,GENERO) VALUES (?,?,?,?,?)
+
+INSERT INTO dados_residenciais_medico (CEP,MEDICO_CPF,ENDERECO,BAIRRO,NUMERO,COMPLEMENTO,CIDADE,ESTADO) VALUES (?,?,?,?,?,?,?,?)
+
+INSERT INTO dados_contato_medico (medico_cpf,email,fixo,celular) VALUES (?,?,?,?) 

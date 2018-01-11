@@ -1,0 +1,56 @@
+/* NAV  */
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgb(132, 105, 80);
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: rgb(186, 124, 71) !important;
+}
+
+/* DROPDOWN */
+
+.navbar-default .navbar-nav .dropdown.open a:focus  {
+    background-color: rgb(186, 124, 71) !important;
+}
+
+.dropdown-toggle {
+  background-color: transparent !important;
+}
+
+/* ICONE TOGGLE */
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
+  background-color: rgb(186, 124, 71);
+  color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+/* BUG SCROLL */
+
+.navbar-collapse.in, .navbar-collapse.collapsing {
+  overflow-y: visible;
+}

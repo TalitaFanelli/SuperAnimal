@@ -1,0 +1,17 @@
+/* IMPORT COMMUN STYLES */
+@import url("./menu-definitions.css");
+@import url("./generics-definitions.css");
+@import url("./medias-definitions.css");
+
+.jumbotron {
+  background-color: #fff;
+  color: gray;
+  padding: 40px 25px 120px 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+.btn {
+	  background-color: orange !important;
+	  border: orange !important;
+	  color: #fff !important;
+}

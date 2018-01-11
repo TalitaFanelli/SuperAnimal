@@ -1,0 +1,74 @@
+/* IMPORT COMMUN STYLES */
+
+@import url("./menu-definitions.css");
+@import url("./generics-definitions.css");
+@import url("./medias-definitions.css");
+
+.download {
+  width: 250px;
+  height: 95px;
+}
+
+.btn {
+	  background-color: orange !important;
+	  border: orange !important;
+	  color: #fff !important;
+}
+
+/* FORM STYTLE */
+#clinica_crmv, #clinica_crmv, #cliente_cpf, #cliente_senha {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  border-radius: 0px !important;
+}
+
+input[type=checkbox] {
+  display: none;
+  /* to hide the checkbox itself */
+}
+
+input[type=checkbox]+label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 26px;
+  color: rgb(132, 105, 80);
+}
+
+input[type=checkbox]+label:before {
+  content: "\f096";
+  /* unchecked icon */
+}
+
+input[type=checkbox]+label:before {
+  letter-spacing: 10px;
+  /* space between checkbox and label */
+}
+
+input[type=checkbox]:checked+label:before {
+  content: "\f046";
+  /* checked icon */
+}
+
+input[type=checkbox]:checked+label:before {
+  letter-spacing: 5px;
+  /* allow space for check mark */
+}
+
+.checkbox-modal-login {
+  display: table;
+  /* Instead of display:block */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group {
+  width: 200px;
+  display: table;
+  /* Instead of display:block */
+  margin-left: auto;
+  margin-right: auto;
+}

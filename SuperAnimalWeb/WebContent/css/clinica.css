@@ -1,0 +1,85 @@
+/* IMPORT COMMUN STYLES */
+@import url("./menu-definitions.css");
+@import url("./generics-definitions.css");
+@import url("./medias-definitions.css");
+
+.form-group {
+	padding-right: 10px !important;
+}
+
+.btn {
+	  background-color: orange !important;
+	  border: orange !important;
+	  color: #fff !important;
+}
+
+#clinica_estado {
+  width: 80px;
+  height: 35px;
+}
+
+#clinica_genero {
+  width: 140px;
+  height: 35px;
+}
+
+#clinica_nome, #clinica_sobrenome, #clinica_nascimento, #clinica_genero, #clinica_cpf, #clinica_crmv, #clinica_cep, #clinica_endereco, #clinica_bairro, #clinica_numero, #clinica_complemento, #clinica_cidade, #clinica_estado, #clinica_email, #clinica_fixo, #clinica_cel{
+    text-transform: uppercase !important;
+}
+
+#clinica_nome, #clinica_sobrenome, #clinica_nascimento, #clinica_genero, #clinica_cpf, #clinica_crmv, #clinica_cep, #clinica_endereco, #clinica_bairro, #clinica_numero, #clinica_complemento, #clinica_cidade, #clinica_estado, #clinica_email, #clinica_fixo, #clinica_cel, #clinica_senha {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  border-radius: 0px !important;
+}
+
+#label-clinica_nome, #label-clinica_sobrenome, #label-radio, #label-clinica_nascimento, #label-clinica_cpf, #label-clinica_crmv, #label-clinica_genero, #label-clinica_cep, #label-clinica_endereco, #label-clinica_bairro, #label-clinica_numero, #label-clinica_complemento, #label-clinica_cidade, #label-clinica_estado, #label-clinica_email, #label-clinica_fixo, #label-clinica_cel, #label-clinica_senha {
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#clinica_nome-check, #clinica_sobrenome-check, #clinica_cpf-check, #clinica_crmv-check, #clinica_cep-check, #clinica_endereco-check,
+#clinica_bairro-check, #clinica_numero-check, #clinica_cidade-check, #clinica_estado-check, #clinica_email-check, #clinica_cel-check, #clinica_genero-check, #clinica_nascimento-check, #clinica_senha-check {
+  display: none;
+  color: green;
+  width: 100%;
+  font-size: 16px;
+}
+
+#clinica_nome-cross, #clinica_sobrenome-cross, #clinica_cpf-cross, #clinica_crmv-cross, #clinica_cep-cross, #clinica_endereco-cross,
+#clinica_bairro-cross, #clinica_numero-cross, #clinica_cidade-cross, #clinica_estado-cross, #clinica_email-cross, #clinica_cel-cross, #clinica_genero-cross, #clinica_nascimento-cross, #clinica_senha-cross {
+  display: inline;
+  color: red;
+  width: 100%;
+  font-size: 20px;
+}
+
+#clinica_complemento-check, #clinica_fixo-check{
+  display: inline;
+  color: green;
+  width: 100%;
+  font-size: 16px;
+}
+
+#clinica_complemento-cross, #clinica_fixo-cross {
+  display: none;
+  color: red;
+  width: 100%;
+  font-size: 20px;
+}
+
+#clinica_cep-warning, #clinica_senha-warning {
+  display: none;
+  color: orange;
+  width: 100%;
+  font-size: 20px;
+}
+
+.input-group-addon {
+  background-color: transparent !important;
+}

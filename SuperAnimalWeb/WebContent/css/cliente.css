@@ -1,0 +1,85 @@
+/* IMPORT COMMUN STYLES */
+@import url("./menu-definitions.css");
+@import url("./generics-definitions.css");
+@import url("./medias-definitions.css");
+
+.form-group {
+	padding-right: 10px !important;
+}
+
+.btn {
+	  background-color: orange !important;
+	  border: orange !important;
+	  color: #fff !important;
+}
+
+#cliente_estado {
+  width: 80px;
+  height: 35px;
+}
+
+#cliente_genero {
+  width: 140px;
+  height: 35px;
+}
+
+#cliente_nome, #cliente_sobrenome, #cliente_nascimento, #cliente_genero, #cliente_cpf, #cliente_crmv, #cliente_cep, #cliente_endereco, #cliente_bairro, #cliente_numero, #cliente_complemento, #cliente_cidade, #cliente_estado, #cliente_email, #cliente_fixo, #cliente_cel{
+    text-transform: uppercase !important;
+}
+
+#cliente_nome, #cliente_sobrenome, #cliente_nascimento, #cliente_genero, #cliente_cpf, #cliente_crmv, #cliente_cep, #cliente_endereco, #cliente_bairro, #cliente_numero, #cliente_complemento, #cliente_cidade, #cliente_estado, #cliente_email, #cliente_fixo, #cliente_cel, #cliente_senha {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  border-radius: 0px !important;
+}
+
+#label-cliente_nome, #label-cliente_sobrenome, #label-radio, #label-cliente_nascimento, #label-cliente_cpf, #label-cliente_crmv, #label-cliente_genero, #label-cliente_cep, #label-cliente_endereco, #label-cliente_bairro, #label-cliente_numero, #label-cliente_complemento, #label-cliente_cidade, #label-cliente_estado, #label-cliente_email, #label-cliente_fixo, #label-cliente_cel, #label-cliente_senha {
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#cliente_nome-check, #cliente_sobrenome-check, #cliente_cpf-check, #cliente_crmv-check, #cliente_cep-check, #cliente_endereco-check,
+#cliente_bairro-check, #cliente_numero-check, #cliente_cidade-check, #cliente_estado-check, #cliente_email-check, #cliente_cel-check, #cliente_genero-check, #cliente_nascimento-check, #cliente_senha-check {
+  display: none;
+  color: green;
+  width: 100%;
+  font-size: 16px;
+}
+
+#cliente_nome-cross, #cliente_sobrenome-cross, #cliente_cpf-cross, #cliente_crmv-cross, #cliente_cep-cross, #cliente_endereco-cross,
+#cliente_bairro-cross, #cliente_numero-cross, #cliente_cidade-cross, #cliente_estado-cross, #cliente_email-cross, #cliente_cel-cross, #cliente_genero-cross, #cliente_nascimento-cross, #cliente_senha-cross {
+  display: inline;
+  color: red;
+  width: 100%;
+  font-size: 20px;
+}
+
+#cliente_complemento-check, #cliente_fixo-check{
+  display: inline;
+  color: green;
+  width: 100%;
+  font-size: 16px;
+}
+
+#cliente_complemento-cross, #cliente_fixo-cross {
+  display: none;
+  color: red;
+  width: 100%;
+  font-size: 20px;
+}
+
+#cliente_cep-warning, #cliente_senha-warning {
+  display: none;
+  color: orange;
+  width: 100%;
+  font-size: 20px;
+}
+
+.input-group-addon {
+  background-color: transparent !important;
+}

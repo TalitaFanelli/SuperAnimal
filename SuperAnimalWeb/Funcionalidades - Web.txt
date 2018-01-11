@@ -1,0 +1,58 @@
++Tela Index
+1. Menu com redirecionamento para as seções
+2. Seção Adoção possui BootStrap Carousel 
+3. Seta para o topo
+4. Responsividade e Toggle Menu em todo o site
+
+
++Tela Login
+1. Acessar outra página sem logar (session = null)
+2. Login / senha vazio
+3. Campo CPF só aceita números (possui máscara JQuery Mask)
+4. ID e ou senha inválidos
+5. 4. ID e ou senha válidos
+
+
++Tela Home
+1. Exibe e guarda o nome do usuário no menu
+
+
++Tela Usuários
+1. Filtrar por
+2. Mostrar registros por página
+3. Barra de pesquisa
+4. Sort das colunas
+5. Filtro cliente (combo box animais) - caso não tenha nenhum animal aparece NENHUM
+6. Botões cadastrar, ver perfil e excluir
+7. Tabela Bootstrap DataTables
+8. Tabela vazia: mensagem (testar com tabela a Animal)
+
+
++Tela Cliente / Médico: Atualizar e Cadastrar
+1. Campos são idênticos, exceto pelo CRMV do Médico
+2. Botão trocar foto desabilitado
+3. Campos possuem validadores, máscara, padrão e mensagens para interagir com o usuário
+3.1Todos os campos obrigatórios não aceitam nulo ou vazio
+3.2 Validador de CPF
+3.3 Limite de data no Nascimento
+3.4 Padrão no Email
+
+
++Tela Cliente / Médico:  Atualizar
+1. Campo CPF disabled 
+2. Cada seção atualiza uma tabela do banco
+3. Menu > Logout = session null
+
++Tela Animal: Atualizar e Cadastrar
+1. CPF DONO(A) deve existir na tabela Cliente ou Médico, caso o contrário não cadastra / atualiza e gera um alerta
+2. Limite de data no Nascimento
+3. Idade no cadastrar é calculada por JavaScript e no consultar por JAVA
+4. Botão trocar foto desabilitado
+
+- Excluir Animal, Cliente, Veterinário
+
+
++Estrutura
+- DBO's: todas as classes com Equals, toString e hashCode
+- Possui o index.html e as demais páginas .jsp
+- Possui Servlet

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco">
+
+    <CheckBox
+        android:id="@+id/checkBoxBanho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/banho"
+        android:textColor="@color/preto"
+        android:textSize="15sp"
+        android:theme="@style/AppTheme"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBoxTosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBoxBanho"
+        android:text="@string/tosa"
+        android:textColor="@color/preto"
+        android:textSize="15sp"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHidratacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBoxTosa"
+        android:text="@string/hidratacao"
+        android:textColor="@color/preto"
+        android:textSize="15sp"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUnhas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBoxHidratacao"
+        android:text="@string/unhas"
+        android:textColor="@color/preto"
+        android:textSize="15sp"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBoxUnhas"
+        android:text="@string/dentes"
+        android:textColor="@color/preto"
+        android:textSize="15sp"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOuvido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBoxDentes"
+        android:text="@string/ouvido"
+        android:textColor="@color/preto"
+        android:textSize="15sp"
+        android:theme="@style/AppTheme" />
+
+    <Button
+        android:id="@+id/btnPronto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBoxOuvido"
+        android:text="@string/ok"
+        android:textColor="@color/branco"
+        android:textSize="16sp"
+        android:theme="@style/AppTheme" />
+</RelativeLayout>

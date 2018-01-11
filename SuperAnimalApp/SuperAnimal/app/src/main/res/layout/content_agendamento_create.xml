@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mobile.app.superanimal.AgendamentoCreateActivity"
+    tools:showIn="@layout/activity_agendamento_create">
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:paddingLeft="5dp"
+        android:text="@string/data"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtData"
+        android:textColor="@color/preto"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtHorario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toolbar"
+        android:paddingRight="5dp"
+        android:text="@string/horario"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtHorario"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/txtHorario"
+        android:layout_below="@+id/txtHorario"
+        android:paddingRight="5dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtData"
+        android:layout_alignStart="@+id/txtData"
+        android:layout_below="@+id/spinnerData"
+        android:paddingLeft="5dp"
+        android:text="@string/animal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtAnimal"
+        android:textColor="@color/preto"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtListaServicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAnimal"
+        android:layout_alignStart="@+id/txtAnimal"
+        android:layout_below="@+id/spinnerAnimal"
+        android:paddingLeft="5dp"
+        android:text="@string/listaServicos"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTotalEscolhidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtListaServicos"
+        android:layout_alignStart="@+id/txtListaServicos"
+        android:layout_below="@+id/txtListaServicos"
+        android:paddingLeft="5dp"
+        android:text="Nenhum serviço escolhido\n"
+        android:textColor="@color/preto"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtTotalPagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTotalEscolhidos"
+        android:layout_alignStart="@+id/txtTotalEscolhidos"
+        android:layout_below="@+id/txtTotalEscolhidos"
+        android:paddingLeft="5dp"
+        android:text="@string/totalPagar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSoma"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTotalPagar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/txtTotalPagar"
+        android:layout_below="@+id/txtTotalPagar"
+        android:paddingLeft="5dp"
+        android:text="R$0,00"
+        android:textColor="@color/preto"
+        android:textSize="18sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fatServicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerHorario"
+        android:layout_alignStart="@+id/spinnerHorario"
+        android:layout_alignTop="@+id/txtListaServicos"
+        android:layout_marginTop="11dp"
+        android:clickable="true"
+        android:tint="@color/branco"
+        app:backgroundTint="@color/botaoNormal"
+        app:srcCompat="@drawable/ic_carrinho" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSoma"
+        android:text="@string/salvar"
+        android:textColor="@color/branco"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

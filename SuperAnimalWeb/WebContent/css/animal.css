@@ -1,0 +1,67 @@
+/* IMPORT COMMUN STYLES */
+@import url("./menu-definitions.css");
+@import url("./generics-definitions.css");
+@import url("./medias-definitions.css");
+
+.form-group {
+	padding-right: 10px !important;
+}
+
+.btn {
+	  background-color: orange !important;
+	  border: orange !important;
+	  color: #fff !important;
+}
+
+#animal_especie {
+  width: 160px;
+  height: 35px;
+}
+
+#animal_sexo {
+  width: 140px;
+  height: 35px;
+}
+
+#animal_dono {
+    margin-right: 25px;
+}
+
+#animal_nome, #animal_sobrenome, #animal_nascimento, #animal_sexo, #animal_raca, #animal_pelagem, #animal_especie {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  text-transform: uppercase !important;
+  border-radius: 0px !important;
+}
+
+#label-animal_dono, #label-animal_nome, #label-animal_sobrenome,
+#label-animal_nascimento, #label-animal_raca, #label-animal_pelagem,
+#label-animal_sexo, #label-animal_especie {
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#animal_dono-check, #animal_nome-check, #animal_sobrenome-check, #animal_raca-check, #animal_pelagem-check,
+#animal_especie-check, #animal_sexo-check, #animal_nascimento-check {
+  display: none;
+  color: green;
+  width: 100%;
+  font-size: 16px;
+}
+
+#animal_dono-cross, #animal_nome-cross, #animal_sobrenome-cross, #animal_raca-cross, #animal_pelagem-cross,
+#animal_especie-cross, #animal_sexo-cross, #animal_nascimento-cross {
+  display: inline;
+  color: red;
+  width: 100%;
+  font-size: 20px;
+}
+
+.input-group-addon {
+  background-color: transparent !important;
+}
