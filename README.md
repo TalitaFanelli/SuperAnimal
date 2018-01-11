@@ -9,6 +9,6 @@ JavaScript / JQuery
 
 Back-End
 Java (JSP & Servlet)
-TomCat
+Tomcat
 Web API (JSON)
 MySQL
