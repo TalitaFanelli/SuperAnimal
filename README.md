@@ -1,5 +1,5 @@
 # SuperAnimal
-Web & Mobile App Tests
+Web & Mobile App Tests for a veterinarian system
 
 Front-End
 HTML5,
