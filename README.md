@@ -1,15 +1,8 @@
-<strong> SuperAnimal </strong>
-Site web & mobile app tests for a veterinarian system
+<h1> SuperAnimal </h1><br>
+<p>Web & mobile application tests for a veterinarian system</p>
 
-Front-End
-HTML5,
-CSS,
-BootStrap,
-JavaScript,
-JQuery
+<strong>Front-End<strong>
+  <p>HTML5, CSS, BootStrap, JavaScript, JQuery</p>
 
-Back-End
-Java (JSP & Servlet),
-Tomcat,
-Web API (JSON),
-MySQL
+<strong>Back-End</strong>
+<p>Java (JSP & Servlet), Tomcat, Web API (JSON), MySQL</p>
