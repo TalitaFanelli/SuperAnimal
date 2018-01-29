@@ -1,4 +1,4 @@
-# SuperAnimal
+<strong> SuperAnimal </strong>
 Site web & mobile app tests for a veterinarian system
 
 Front-End
